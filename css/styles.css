@@ -1,0 +1,103 @@
+#our-menu {
+	margin-bottom: 30px;
+	font-size: 30px;
+}
+.food {
+	background: lightgrey;
+	padding-top: 10px;
+}
+.food p {
+	margin: 10px 30px 30px 30px;
+	text-align: left;
+	font-weight: normal;
+	font-size: 0.8em;
+}
+body {
+  font-size: 20px;
+  color: black;
+  font-weight: bold;
+  font-family: 'Varela Round', sans-serif;
+  text-align: center;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: darkgrey;
+  border-bottom: 3px solid black;
+}
+
+.navbar-brand {
+  padding-top: 20px;
+  height: 80px;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Varela Round', sans-serif;
+  color: black;
+  font-size: 1.8em;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+
+
+#nav-list {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+#nav-list a {
+	background-color: white;
+  color: black;
+  text-align: center;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 2px solid black;
+}
+
+
+@media (min-width: 1200px) {
+	
+}
+
+/*** DESKTOP ***/
+@media (min-width: 992px) and (max-width: 1199px) {
+  
+
+}
+
+/*** TABLET ***/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/*** PHONE ***/
+@media (max-width: 767px) { 
+	.food {
+		margin-right: 50px;
+		margin-left: 50px;
+	}
+	.navbar-brand { 	
+		padding-top: 10px;
+		height: px;
+	}
+	.navbar-brand h1 { 		
+		padding-top: 10px;
+	}
+	#collapsable-nav {
+	border: 0px;
+	}
+	#collapsable-nav a {
+		font-weight: normal;
+		font-size: 1em;
+		border-top: 2px solid black;
+	}
+	#collapsable-nav a span {
+		font-size: 1em;
+		margin-right: 5px;
+	}
+}
+/*** SUPER EXTRA SMALL***/
+@media (max-width: 479px) {
+
+}
